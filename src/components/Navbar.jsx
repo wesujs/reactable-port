@@ -93,7 +93,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#222121]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/wesujs" target='_blank' rel="noreferrer"
             >
               GitHub <FaGithubAlt size={30} />
             </a>
@@ -101,7 +101,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0072b1]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/willie-spratt-b92019209/" target='_blank' rel="noreferrer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -109,7 +109,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="mailto:williespratt99@gmail.com?subject=Interested and Reaching Out!" target='_blank' rel="noreferrer"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -117,7 +117,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://docs.google.com/document/d/1KyXIlldgBt5CTJFey8Oaj4s6VCNd9xwYgiOTk0IfScE/edit?usp=sharing" target='_blank' rel="noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

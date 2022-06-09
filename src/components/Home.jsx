@@ -1,5 +1,5 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
+import { TbArrowRightSquare } from 'react-icons/tb'
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -17,16 +17,25 @@ const Home = () => {
           I'm a full-stack developer that specializes in implementing designs to
           functional fullstack web applications.
         </p>
-        <div>
-          
-            <Link activeClass="active" to="work" smooth={true} duration={500}>
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">View Work
-            <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-3" />
+        <div className="wrapper">
+          <Link activeClass="active" to="work" smooth={true} duration={500}>
+            <button className="group border-2 px-6 py-3 my-2 flex items-center">
+              <h6 className="jump">View Work</h6>
+              <span className="group-hover:rotate-90 duration-300">
+                <TbArrowRightSquare className="ml-3" />
               </span>
-          </button>
-            </Link>
-            
+            </button>
+          </Link>
+        </div>
+        <div className="wrapper">
+          <Link activeClass="active" to="contact" smooth={true} duration={500}>
+            <button className="group border-2 px-6 py-3 my-2 flex items-center">
+              <h6 className="jump">Hit Me Up!</h6>
+              <span className="group-hover:rotate-90 duration-300">
+              <TbArrowRightSquare className="ml-3" />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
